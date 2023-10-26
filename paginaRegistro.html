@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Allpinicos</title>
+    <link rel="stylesheet" type="text/css" href="registro.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Allpinicos</h1>
+        <p>Sua aventura nas alturas começa aqui!</p>
+    </header>
+    <nav>
+        <a href="pagePrincipal.html">Página Inicial</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="sobrenos.html">Sobre Nós</a>
+        <a href="blog.html">Blog</a>
+        <a href="paginaLogin.html">Login</a>
+        <a href="paginaRegistro.html"></a>
+    </nav>
+    <div class="container">
+        <h2>Registro de Conta</h2>
+        <div class="registration-form">
+            <form action="processar_registro.php" method="post">
+                <label for="username">user:</label>
+                <input type="text" id="user" name="user" required>
+                
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Registrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
