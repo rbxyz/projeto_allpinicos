@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allpinicos - Login</title>
+    <link rel="stylesheet" type="text/css" href=".../css/login.css"/>
+</head>
+<body>
+    <header>
+        <h1>Loja de Allpinicos</h1>
+    </header>
+    <nav>
+        <a href="pagePrincipal.html">Página Inicial</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="sobrenos.html">Sobre Nós</a>
+        <a href="blog.html">Blog</a>
+        <a href="paginaLogin.html">Login</a>
+        <a href="paginaRegistro.html"></a>
+    </nav>
+    <div class="container">
+        <h2>Login</h2>
+        <div class="login-form">
+            <form action="processar_login.php" method="post">
+                <label for="username">Email:</label>
+                <input type="text" id="email" name="amail" required> <br>
+                
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required> <br>
+
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
